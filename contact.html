@@ -1,0 +1,54 @@
+<!--Contact Page-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Contact</title>
+    </head>
+    <body>
+
+        <!-- Horizontal navigation bar-->
+        <nav>
+            <div class="logo">
+                <h4>Portfolio</h4>
+            </div>
+            <ul class="nav-bar">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="project.html">Coursework</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+        </nav>
+
+        <!-- Contact form post method-->
+        <div class="contact">
+            <h1>Contact</h1>
+            <form class="contact-form" action ="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method = "post">
+                
+                <input type="text" class="contact-text" name="name_input" placeholder="Name:">
+                
+                <br>
+                
+                <input type="text" class="contact-text" name="email_input" placeholder="Email:">
+                
+                <br>
+                
+                <textarea name="message_input" class="message" placeholder="Message:"></textarea>
+                
+                <br>
+                
+                <input type="submit" class="sendBtn" value="Send">
+            </form>
+        </div>
+
+    </body>
+</html>

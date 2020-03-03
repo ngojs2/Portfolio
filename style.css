@@ -1,0 +1,226 @@
+/* Images used were free stock photos from pexel.com. Also cited in alt""
+when used. But could not find a way to cite for the images i used for the
+background used in CSS
+https://www.pexels.com/
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+
+}
+
+/*Styling for nav*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: darkslategray;
+}
+
+
+/*Styling for portfolio logo*/
+.logo{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+
+/*Styling for nav bar links*/
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+
+}
+
+/*Remove list style */
+.nav-bar li{
+    list-style: none;
+}
+
+/*Styling for anchor*/
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/*Styling for Carousel*/
+.carousel-container{
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-images{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/*Center image carousel buttons*/
+.buttons{
+    text-align:center;
+}
+
+/*Styling for image carousel buttons*/
+.prevBtn{
+    background-color: darkslategray;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+   
+}
+
+.nextBtn{
+    background-color: darkslategray;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+/*Styling for contact page*/
+.contact{
+    background: url(daylight-environment-forest-idyllic-459225.jpg);
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.contact h1 {
+    text-align: center;
+}
+
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.contact-text{
+    display: block;
+    width: 95%;
+    margin: 15px;
+    overflow: auto;
+}
+
+.message{
+    display: block;
+    width: 95%;
+    height: 100px;
+    margin: 15px;
+    overflow: auto;
+}
+
+.sendBtn{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/*Styling for about me page*/
+.about{
+    width: 100%;
+    background-color: gray;
+}
+
+.about h2{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+}
+
+.about h3{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.about .left, .about .right{
+    width: 50%;
+    float: left;
+}
+
+.about .left img{
+    max-width: 100%;
+}
+
+.about .left{
+    padding-right: 5%;
+}
+
+
+.mailBtn{
+    background-color: darkslategray;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.gitBtn{
+    background-color: darkslategray;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.linkBtn{
+    background-color: darkslategray;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.dlBtn{
+    background-color: darkslategray;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+/*Styling for project/coursework page*/
+.scroll{
+    border: 2px;
+    max-height: 500px;
+    max-width: 1000px;
+    float: left;
+    overflow: auto;
+}
+
+.project{
+    background: url(blank-business-composition-computer-373076.jpg);
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.skills h2{
+    color: navy;
+}
+
+.coursework-header{
+    color:white;
+    background-color: darkslategray;
+}
+
+.courses h2{
+    color: navy;
+}
+
+.courses{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}

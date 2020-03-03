@@ -1,0 +1,53 @@
+<!-- Home page that contains the image carousel-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Project</title>
+    </head>
+    <body>
+        <!-- Horizontal navigation bar-->
+        <nav>
+            <div class="logo">
+                <h4>Portfolio</h4>
+            </div>
+            <ul class="nav-bar">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="project.html">Coursework</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+        </nav>
+
+        <!-- Carousel images-->
+        <!-- Cited images in alt""-->
+        <div class="carousel-container">
+            <div class="carousel-images">
+
+                <div class="image"><img src="brown-trees-on-forest-3655684.jpg" alt="https://www.pexels.com/photo/brown-trees-on-forest-3655684/"></div>
+                <div class="image"><img src="golden-gate-bridge-1661656.jpg" alt="https://www.pexels.com/photo/golden-gate-bridge-1661656/"></div>
+                <div class="image"><img src="aerial-photography-of-concrete-houses-2401665.jpg" alt="https://www.pexels.com/photo/aerial-photography-of-concrete-houses-2401665/"></div>
+                <div class="image"><img src="photography-of-waterfalls-between-trees-788200.jpg" alt="https://www.pexels.com/photo/photography-of-waterfalls-between-trees-788200/"></div>
+                
+            </div>
+        </div>
+
+        <!-- Carousel buttons -->
+        <div class="buttons">
+            <button class="prevBtn" onclick="manual(-1)">Prev</button>
+            <button class="nextBtn" onclick="manual(1)">Next</button>
+        </div>
+
+        <script src="app.js"></script>
+
+    </body>
+</html>
